@@ -195,8 +195,6 @@ function GetInput()
             term.write(">")
             term.setCursorPos(3,caretOffset)
             term.write(message)
-        elseif char == "left" or char == "right" or char== "up" or char == "down"then
-            -- do nothing
         else
             message = message .. char
             term.setCursorPos(3,caretOffset)
